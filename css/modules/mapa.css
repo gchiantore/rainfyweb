@@ -1,0 +1,5 @@
+#map {
+    width: 100%;
+    height: 73vh; /* o lo que quieras */
+    z-index: 1;
+  }
