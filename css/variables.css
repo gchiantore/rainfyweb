@@ -1,0 +1,23 @@
+:root {
+    --color-background: #eff8f7;
+    --color-background: #b1ce57;
+    --color-text: #565e5a;
+    --color-title: #333;
+  
+    --color-green: #b1ce57;
+    --color-green-hover: #a0ba4e;
+    --color-green-text: #565e5a;
+  
+    --color-red: #e41c19;
+    --color-red-hover: #cb1a17;
+    --color-red-text: #eff8f7;
+  
+    --color-gray: #6f7874;
+    --color-gray-hover: #5a615d;
+    --color-input-border: #ccc;
+    --color-light: #eff8f7;
+  
+    --font-main: 'Titillium Web', sans-serif;
+    --radius: 6px;
+    --padding: 12px 16px;
+  }

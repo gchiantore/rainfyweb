@@ -1,0 +1,179 @@
+/* TipografÃ­a base */
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Botones */
+  .btn {
+    display: inline-block;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: var(--color-green);
+    color: var(--color-green-text);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-green-hover);
+  }
+  
+  .btn-danger {
+    background-color: var(--color-red);
+    color: var(--color-red-text);
+  }
+  
+  .btn-danger:hover {
+    background-color: var(--color-red-hover);
+  }
+  
+  .btn-secondary {
+    background-color: var(--color-gray);
+    color: var(--color-light);
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--color-gray-hover);
+  }
+  
+  /* Inputs */
+  .input {
+    padding: var(--padding);
+    border: 1px solid var(--color-input-border);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--color-text);
+    background-color: #fff;
+  }
+  
+  .input-sm {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+  
+  .input-lg {
+    padding: 16px 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #fff;
+    border-radius: var(--radius);
+    padding: var(--padding);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .card-header {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--color-title);
+  }
+  
+  .card-body {
+    font-size: 1rem;
+  }
+  
+  /* Modales */
+  .modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: var(--padding);
+    border-radius: var(--radius);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    border-radius: var(--radius);
+    background-color: var(--color-gray);
+    color: var(--color-light);
+  }
+  
+  /* Labels */
+  .label {
+    font-size: 0.85rem;
+    color: var(--color-gray);
+  }
+  
+  /* Switch */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: var(--color-gray);
+    border-radius: var(--radius);
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px; width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--color-green);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  /* Utilitarias */
+  .rounded {
+    border-radius: var(--radius);
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+  
+  .text-muted {
+    color: var(--color-gray);
+  }

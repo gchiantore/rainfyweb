@@ -1,0 +1,40 @@
+@import url('./variables.css');
+@import url('./components.css');
+
+/* Layout general, navbar, etc */
+body {
+  padding-bottom: 60px; /* espacio para nav inferior */
+}
+
+.app-wrapper {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+/* Nav inferior */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 480px;
+  background: #2a2a2a;
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  color: var(--color-muted);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.bottom-nav button.active,
+.bottom-nav button:hover {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rainify - Inicio</title>
+  <link rel="stylesheet" href="/css/variables.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/modules/home.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="card shadow-sm">
+    <h1 class="card-header">Rainify</h1>
+    <p class="card-body">Pronóstico de tu zona</p>
+  </header>
+
+  <main class="card">
+    <div class="card-header">
+      Hoy en <span id="ciudad">Villa María</span>
+    </div>
+    <div class="card-body">
+      <p><i class="fas fa-temperature-high"></i> Máx: <strong>28°C</strong></p>
+      <p><i class="fas fa-temperature-low"></i> Mín: <strong>15°C</strong></p>
+      <p><i class="fas fa-cloud-showers-heavy"></i> Precipitación: <strong>3 mm</strong></p>
+      <p><i class="fas fa-wind"></i> Viento: <strong>13 km/h</strong></p>
+      <p><i class="fas fa-location-arrow"></i> Dirección: <strong>Sur</strong></p>
+    </div>
+  </main>
+
+  <nav class="card">
+    <button class="btn btn-primary"><i class="fas fa-plus"></i> Agregar Ciudad</button>
+    <button class="btn btn-secondary"><i class="fas fa-map-marker-alt"></i> Ver mapa</button>
+    <button class="btn btn-danger"><i class="fas fa-exclamation-triangle"></i> Reportar lluvia</button>
+  </nav>
+
+</body>
+</html>
