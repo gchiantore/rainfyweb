@@ -22,9 +22,10 @@ export async function render(container) {
   }, 300);
 
   // Tile rápido
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; Stadia Maps, &copy; OpenMapTiles &copy; OpenStreetMap contributors',
-    maxZoom: 20
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; Carto & OpenStreetMap contributors',
+    subdomains: 'abcd',
+    maxZoom: 19
   }).addTo(map);
   
 
