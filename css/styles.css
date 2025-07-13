@@ -13,6 +13,11 @@ body {
   max-width: 480px;
   margin: 0 auto;
   padding: 0rem;
+
+  padding-top: calc(64px + env(safe-area-inset-top));   /* espacio para la barra superior */
+  padding-bottom: calc(72px + env(safe-area-inset-bottom)); /* espacio para la barra inferior */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* scroll suave en iOS */
 }
 
 /* Nav inferior */
