@@ -4,6 +4,9 @@
 /* Layout general, navbar, etc */
 body {
   padding-bottom: 60px; /* espacio para nav inferior */
+  margin: 0;
+  padding: 0;
+  background-color: #b1ce57; /* o el color que uses */
 }
 
 .app-wrapper {
