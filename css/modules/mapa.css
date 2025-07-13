@@ -1,5 +1,5 @@
 .mapa-title {
-  margin-top: 64px;
+  margin-top: calc(35px + env(safe-area-inset-top));
   padding-left: 0.5rem;
   text-align: center;
   font-size: 1.8rem;
