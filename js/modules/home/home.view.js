@@ -6,10 +6,6 @@ export async function render(container) {
   loadCss('css/modules/home.css');
   container.innerHTML = `
     <section class="home-view">
-      <h1 class="home-title">
-        <i class="fa-solid fa-cloud-showers"></i> Rainify
-      </h1>
-
       <div class="home-summary">
         <div class="location-name"><i class="fa-regular fa-earth-americas"></i> La Para </div>
         <div class="temp-actual">--°C</div>

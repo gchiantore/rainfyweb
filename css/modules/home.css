@@ -20,6 +20,7 @@
     padding: 1rem;
     border-radius: var(--radius);
     margin-bottom: 1.5rem;
+    margin-top: 64px;
     text-align: center;
   }
   
@@ -50,6 +51,7 @@
     font-size: 1.2rem;
     margin: 1rem  0.5rem;
     color: var(--color-title);
+    text-align: center ;
   }
   
   .forecast-list {

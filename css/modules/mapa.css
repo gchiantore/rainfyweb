@@ -1,3 +1,15 @@
+.mapa-title {
+  margin-top: 64px;
+  padding-left: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--color-title);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 #map {
     flex: 1;
   height: calc(100vh - 64px); /* alto total menos el alto de la barra */
