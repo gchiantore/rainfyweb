@@ -54,7 +54,7 @@ body {
   left: 0;
   width: 100%;
   max-width: 480px;
-  height: calc(45px + env(safe-area-inset-top)); /* más altura total */
+  height: calc(25px + env(safe-area-inset-top)); /* más altura total */
   padding-top: env(safe-area-inset-top);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
   z-index: 100;
