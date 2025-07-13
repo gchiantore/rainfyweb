@@ -1,5 +1,6 @@
 #map {
-    width: 100%;
-    height: 73vh; /* o lo que quieras */
+    flex: 1;
+  height: calc(100vh - 64px); /* alto total menos el alto de la barra */
+  width: 100%;
     z-index: 1;
   }
